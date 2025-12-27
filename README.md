@@ -230,11 +230,3 @@ Serve the model locally using the current environment:
 ```bash
 poetry run mlflow models serve -m artifacts/<run_name>/mlflow_baseline --env-manager local --port 5001
 ```
-
-Send a request:
-
-```bash
-curl -X POST http://127.0.0.1:5001/invocations \
-  -H \"Content-Type: application/json\" \
-  -d '{\"dataframe_split\":{\"columns\":[\"headline\",\"short_description\"],\"data\":[[\"Example headline\",\"Example description\"]]}}'
-```
