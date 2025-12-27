@@ -1,0 +1,6 @@
+outs:
+- md5: c29b3c41a11fa01b0f1d0c91e2406a95.dir
+  size: 166
+  nfiles: 1
+  hash: md5
+  path: examples

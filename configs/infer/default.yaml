@@ -1,0 +1,8 @@
+input_path: null
+use_stdin: false
+headline: null
+short_description: null
+top_k: 3
+artifacts_dir: ${output_dir}
+max_rows: null
+output_path: null

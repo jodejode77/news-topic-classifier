@@ -1,0 +1,3 @@
+opset: 18
+dynamic_axes: true
+export_on_train_end: true

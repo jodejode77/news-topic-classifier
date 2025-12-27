@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +206,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+.hydra/
+outputs/
+mlruns/
+artifacts/
+plots/
+outputs/
+
+# Data is tracked with DVC, not Git
+data/**
+!data/.gitignore
+!data/**/*.dvc
+>>>>>>> 27fa3f1 (updating)

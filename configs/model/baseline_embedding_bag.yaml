@@ -1,0 +1,11 @@
+name: baseline
+type: baseline_embedding_bag
+embed_dim: 128
+hidden_dim: 128
+dropout: 0.2
+lr: 0.001
+batch_size: 128
+max_vocab_size: 30000
+min_freq: 2
+use_class_weights: true
+use_weighted_sampler: true

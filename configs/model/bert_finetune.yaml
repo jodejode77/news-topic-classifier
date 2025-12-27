@@ -1,0 +1,9 @@
+name: bert
+type: bert_finetune
+pretrained_model_name: huawei-noah/TinyBERT_General_4L_312D
+max_length: 128
+lr: 0.00002
+batch_size: 16
+weight_decay: 0.01
+warmup_steps: 0
+use_class_weights: true

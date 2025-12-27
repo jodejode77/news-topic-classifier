@@ -1,0 +1,26 @@
+defaults:
+  - data: huffpost
+  - model: baseline_embedding_bag
+  - trainer: default
+  - logging: mlflow
+  - export: onnx
+  - infer: default
+  - serving: mlflow
+  - _self_
+
+run_name: ${model.name}_${now:%Y%m%d_%H%M%S}
+seed: 42
+
+paths:
+  data_dir: data
+  artifacts_dir: artifacts
+  plots_dir: plots
+
+output_dir: ${paths.artifacts_dir}/${run_name}
+
+hydra:
+  run:
+    dir: .
+  job:
+    chdir: false
+  output_subdir: null
