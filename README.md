@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # news-topic-classifier
-=======
 # HuffPost News Category Classifier (MLOps)
 
 Author: Ticona Perales Guillermo Sebastian
@@ -240,4 +238,3 @@ curl -X POST http://127.0.0.1:5001/invocations \
   -H \"Content-Type: application/json\" \
   -d '{\"dataframe_split\":{\"columns\":[\"headline\",\"short_description\"],\"data\":[[\"Example headline\",\"Example description\"]]}}'
 ```
->>>>>>> 27fa3f1 (updating)
